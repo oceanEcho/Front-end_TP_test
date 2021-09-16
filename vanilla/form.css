@@ -1,0 +1,129 @@
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.search-form,
+.search-form::after,
+.search-form::before,
+.search-form *,
+.search-form *::after,
+.search-form *::before {
+  box-sizing: border-box;
+}
+
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.search-form-header {
+  width: 100%;
+  padding: 10px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.search-form-description {
+  width: 25%;
+  margin: 0;
+  padding: 10px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.search-form-input-container {
+  width: 25%;
+  padding: 10px;
+}
+
+.search-form-input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 2px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.search-form-button-container {
+  width: 25%;
+  padding: 10px;
+}
+
+.search-form-button {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  border-radius: 2px;
+  background: #f5a623;
+  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1.1px;
+  text-align: center;
+}
+
+.medium .search-form-input-container,
+.medium .search-form-button-container {
+  width: calc(100% / 3);
+}
+
+.medium .search-form-description {
+  width: 100%;
+}
+
+.small .search-form-header {
+  font-size: 18px;
+}
+
+.small .search-form-input-container {
+  width: 50%;
+}
+
+.small .search-form-description,
+.small .search-form-button-container {
+  width: 100%;
+}
+
+.extra-small .search-form-header {
+  font-size: 18px;
+}
+
+.extra-small .search-form-description,
+.extra-small .search-form-input-container,
+.extra-small .search-form-button-container {
+  width: 100%;
+}
+
+.extra-small .search-form-description {
+  order: 1;
+}
