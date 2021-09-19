@@ -1,5 +1,7 @@
 # Тестовое задание - Frontend Developer (Travelpayouts)
 
+[Demo](https://oceanecho.github.io/Front-end_TP_test/)
+
 ## Запуск проекта
 
 Склонировать репозиторий командой
